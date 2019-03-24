@@ -18,10 +18,11 @@ Output: -1
 Explanation: 
 There is no index that satisfies the conditions in the problem statement.
 
-Python 3 Solution:
+Python 3 Solution
 
 class Solution:
     def pivotIndex(self, nums: List[int]) -> int:
+        
         total = sum(nums) 
         leftSum = 0
         
